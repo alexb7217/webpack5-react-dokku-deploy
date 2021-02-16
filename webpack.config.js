@@ -5,12 +5,14 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
   filename: "./index.html"
 });
 
+const path = require('path');
+
 module.exports = {
   entry: [
     './src/app.js'
   ],
   output: {
-    path: __dirname,
+    path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
     filename: 'bundle.js'
   },

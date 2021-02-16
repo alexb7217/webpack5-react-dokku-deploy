@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const Index = () => {
-  return <div>React App 009 Distributed!</div>;
+  return <div>React App With Webpack</div>;
 };
 
 ReactDOM.render(<Index />, document.getElementById("index"));

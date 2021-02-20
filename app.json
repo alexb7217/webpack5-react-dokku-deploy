@@ -1,0 +1,12 @@
+{
+  "name": "react-webpack-dokku-deploy",
+  "repository": "https://github.com/alexb7217/react-webpack-dokku-deploy",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ],
+  "env": {
+    "NPM_CONFIG_PRODUCTION": false
+  }
+}

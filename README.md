@@ -1,8 +1,7 @@
-# react-for-dokku
+# React and webpack for Dokku
 A simple deployment ready webpack-react application for Dokku.
 
 This repo provides a bare-bones way to clone an app that is ready to deploy to a Dokku server. Please note that React includes webpack and a ton of really useful tools by default. Maybe check it out before re-inventing the wheel here: https://create-react-app.dev/docs/getting-started
-
 
 ## Instructions
 

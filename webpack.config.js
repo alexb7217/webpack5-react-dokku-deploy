@@ -19,24 +19,24 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.js$/, //regex for js files
         exclude: /node_modules/,
         use: {
           loader: "babel-loader"
         }
       },
       {
-        test: /\.css$/,
+        test: /\.css$/, //regex for css files
         use: [
           {
-            loader: "style-loader"
+            loader: "style-loader" //injects CSS into DOM via <link> tag
           },
           {
-            loader: "css-loader",
+            loader: "css-loader", //parse and transform CSS file into modules (opt follows)
             options: {
               modules: true,
               importLoaders: 1,
-              localIdentName: "[name]_[local]_[hash:base64]",
+              localIdentName: "[name]_[local]_[hash:base64]",//generate namespaced styles
               sourceMap: true,
               minimize: true
             }

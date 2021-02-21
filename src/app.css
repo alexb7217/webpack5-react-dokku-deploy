@@ -1,3 +1,10 @@
 .app p {
   color: blue;
 }
+.app span {
+    color: green;
+}
+
+.app ul {
+    color: red;
+}

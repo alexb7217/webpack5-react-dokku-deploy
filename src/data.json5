@@ -1,0 +1,11 @@
+{
+  // comment
+  title: 'JSON5 Example',
+  owner: {
+    name: 'Garfield',
+    organization: 'Associated Press',
+    bio: 'The Original Grumpy Cat & Lasagne Enthusiast\n\
+Likes napping and mousing.',
+    dob: '1978-05-27T07:32:00.000Z',
+  },
+}

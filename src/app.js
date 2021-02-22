@@ -5,6 +5,8 @@ import _ from 'lodash';
 import style from './app.css';
 import bg from './bg.png'; //used in css
 import Icon from './icon.png';
+import Data from './data.json';
+import json from './data.json5';
 
 const Index = () => {
   // Test webpack on the screen
@@ -23,6 +25,12 @@ const Index = () => {
         <p>{webpack_text}</p>
         <h3>Here is your image:</h3>
         <img src={Icon} alt="Icon" /> 
+        <p>{Data.mydata}</p>
+        <ul>
+          <li>Name: {json.owner.name}</li>
+          <li>Org: {json.owner.organization}</li>
+          <li>Bio: {json.owner.bio}</li>
+        </ul>
       </div>
     </div>
   )

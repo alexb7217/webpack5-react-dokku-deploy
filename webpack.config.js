@@ -36,7 +36,7 @@ module.exports = {
             options: {
               modules: true,
               importLoaders: 1,
-              sourceMap: true
+              sourceMap: true,
             }
           }
         ]
@@ -44,7 +44,11 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i, //regex for images
         type: 'asset/resource',
-      }
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      },
     ]
   },
   plugins: [htmlWebpackPlugin]

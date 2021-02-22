@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import style from './app.css';
+import _ from 'lodash';
 
 const Index = () => {
   // Test webpack on the screen

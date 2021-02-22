@@ -1,3 +1,9 @@
+.app {
+  background: url('./bg.png');
+}
+.app h1, .app p, .app span, .app ul {
+  background: white;
+}
 .app p {
   color: blue;
 }

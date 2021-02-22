@@ -1,8 +1,10 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import style from './app.css';
 import _ from 'lodash';
+import style from './app.css';
+import bg from './bg.png'; //used in css
+import Icon from './icon.png';
 
 const Index = () => {
   // Test webpack on the screen
@@ -19,6 +21,8 @@ const Index = () => {
           <li>Red list item added for extra listinenss</li>
         </ul>
         <p>{webpack_text}</p>
+        <h3>Here is your image:</h3>
+        <img src={Icon} alt="Icon" /> 
       </div>
     </div>
   )

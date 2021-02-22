@@ -1,4 +1,4 @@
-# React and webpack for Dokku Deployment
+# React and webpack 5 for Dokku Deployment
 A simple deployment ready webpack-react application for Dokku.
 
 This repo provides a bare-bones way to clone an app that is ready to deploy to a Dokku server. Please note that React includes webpack and a ton of really useful tools by default. Maybe check it out before re-inventing the wheel here: https://create-react-app.dev/docs/getting-started
@@ -7,11 +7,8 @@ This repo provides a bare-bones way to clone an app that is ready to deploy to a
 
 1.  Clone this repo
 2.  Run `npm install`
-3.  Run `npm run dev`, **localhost:8080** will open up in your default browser
-
-## Verify production code
-1. Run `webpack -p`
-2. Run `node server.js`, and visit **localhost:8080**, voila your code is ready for dokku now.
+3.  Run `npm run build`
+4.  Run `node server.js`, and visit **localhost:8080**, voila your code is ready for dokku now.
 
 ## Prepare server for deployment
 1. On dokku server, prepare host environment

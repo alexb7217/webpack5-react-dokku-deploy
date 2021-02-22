@@ -4,8 +4,8 @@ import ReactDOM from "react-dom";
 import style from './app.css';
 
 const Index = () => {
-  // test for webpack JS function coming up
-  var testtext = "coffee";
+  // Test webpack on the screen
+  const webpack_text = _.join(['webpack', 'is', 'go','plus','lodash'], ' ');
   return (
     <div>
       <div className={style.app}>
@@ -13,10 +13,11 @@ const Index = () => {
         <p>This 'p' text will be blue.</p>
         <span>This 'span' will be green</span>
         <ul>
-          <li>A red list item {testtext}</li>
+          <li>A red list item</li>
           <li>Another red list item</li>
           <li>Red list item added for extra listinenss</li>
         </ul>
+        <p>{webpack_text}</p>
       </div>
     </div>
   )

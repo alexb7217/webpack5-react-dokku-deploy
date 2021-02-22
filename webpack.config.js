@@ -14,7 +14,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    filename: 'bundele.js'
+    filename: 'bundle.js'
   },
   module: {
     rules: [
@@ -36,9 +36,7 @@ module.exports = {
             options: {
               modules: true,
               importLoaders: 1,
-              localIdentName: "[name]_[local]_[hash:base64]",//generate namespaced styles
-              sourceMap: true,
-              minimize: true
+              sourceMap: true
             }
           }
         ]

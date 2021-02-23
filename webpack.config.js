@@ -1,8 +1,13 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const json5 = require('json5');
+//set up plugins so they live in a nice list in config
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
   template: "./src/index.html",
   filename: "./index.html"
+});
+const cleanWebpackPlugin = new CleanWebpackPlugin({
+  cleanStaleWebpackAssets: false
 });
 
 const path = require('path');
@@ -61,5 +66,8 @@ module.exports = {
       },
     ]
   },
-  plugins: [htmlWebpackPlugin]
+  plugins: [
+    htmlWebpackPlugin,
+    cleanWebpackPlugin
+  ]
 };

@@ -22,7 +22,7 @@ const Index = () => {
           <li>Red list item added for extra listinenss</li>
         </ul>
         <p>{webpack_text}</p>
-        <h3>Asset from webpack - image:</h3>
+        <h3>Profile Image:</h3>
         <img src={Icon} alt="Icon" /> 
         <p>{Data.mydata}</p>
         <ul>

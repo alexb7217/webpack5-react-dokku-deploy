@@ -11,6 +11,9 @@ module.exports = {
   entry: [
     './src/app.js'
   ],
+  devServer: {
+    contentBase: './dist',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',

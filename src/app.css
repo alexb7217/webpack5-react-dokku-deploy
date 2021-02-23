@@ -5,7 +5,6 @@
   font-weight: 600;
   font-style: normal;
 }
-
 .app {
   background: url('./bg.png');
 }
@@ -20,7 +19,6 @@
   font-family: 'MyFont';
     color: green;
 }
-
 .app ul {
   font-family: 'MyFont';
     color: red;

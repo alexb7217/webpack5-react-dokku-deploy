@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import _ from 'lodash';
 import style from './app.css';
-import bg from './bg.png'; //used in css
 import Icon from './icon.png';
 import Data from './data.json';
 import json from './data.json5';
@@ -23,7 +22,7 @@ const Index = () => {
           <li>Red list item added for extra listinenss</li>
         </ul>
         <p>{webpack_text}</p>
-        <h3>Here is your image:</h3>
+        <h3>Asset from webpack - image:</h3>
         <img src={Icon} alt="Icon" /> 
         <p>{Data.mydata}</p>
         <ul>

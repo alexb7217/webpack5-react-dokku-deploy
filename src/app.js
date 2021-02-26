@@ -6,7 +6,8 @@ import style from './app.css';
 import Icon from './icon.png';
 import Data from './data.json';
 import json from './data.json5';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
+import './custom.scss';
 
 const Index = () => {
   // Test webpack on the screen

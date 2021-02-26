@@ -8,8 +8,8 @@
 .app {
   background: url('./bg.png');
 }
-.app h1, .app p, .app span, .app ul {
-  background-color: white; 
+.app h1, .app h3, .app h4, .app p, .app span, .app ul {
+  background-color: whitesmoke; 
 }
 .app p {
   font-family: 'MyFont';

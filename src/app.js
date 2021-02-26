@@ -2,11 +2,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import _ from 'lodash';
-import style from './app.css';
+//import style from './app.css';
 import Icon from './icon.png';
 import Data from './data.json';
 import json from './data.json5';
-// import 'bootstrap/dist/css/bootstrap.css';
 import './custom.scss';
 
 const Index = () => {

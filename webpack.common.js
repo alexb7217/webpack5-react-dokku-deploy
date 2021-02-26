@@ -36,6 +36,13 @@ module.exports = {
                 }
             },
             {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            },
+            {
                 test: /\.(scss)$/, //regex for scss files
                 use: [
                     {

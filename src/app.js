@@ -2,11 +2,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import _ from 'lodash';
-//import style from './app.css';
 import Icon from './icon.png';
 import Data from './data.json';
 import json from './data.json5';
-import './custom.scss';
+import style from './custom.scss';
 
 const Index = () => {
   // Test webpack on the screen
@@ -14,7 +13,7 @@ const Index = () => {
   return (
     <div>
       <div className={style.app}>
-        <h1>React App With Webpack - ready for Dokku!</h1>
+        <h1>Bootstrapped React App With Webpack - ready for Dokku!</h1>
         <h3>Webpack Tests</h3>
         <h4>CSS Stylesheets</h4>
         <p>This 'p' text will be blue.</p>

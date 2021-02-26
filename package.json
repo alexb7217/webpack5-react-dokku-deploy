@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "watch": "webpack --watch",
-    "build": "webpack",
-    "start": "webpack serve --open",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --open --config webpack.dev.js",
     "server": "node server.js",
-    "heroku-postbuild": "webpack"
+    "heroku-postbuild": "webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "webpack": "^5.23.0",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3",
     "yamljs": "^0.3.0"
   },
   "dependencies": {
